@@ -27,6 +27,7 @@ body, html {
     grid-auto-flow: column;
     place-items: right;
     margin-left: 10px;
+    margin-top: 5px;
 }
 
 
@@ -134,15 +135,15 @@ a:link {
 }
 
 
-.button:nth-child(1):hover .icon{ background: #4267B2}
-.button:nth-child(2):hover .icon{ background: #e1306c}
-.button:nth-child(3):hover .icon{ background: #4b7de1}
-.button:nth-child(4):hover .icon{ background: #2e3239}
+.button:nth-child(1):hover .icon{ background: #4267B2;}
+.button:nth-child(2):hover .icon{ background: #e1306c;}
+.button:nth-child(3):hover .icon{ background: #4b7de1;}
+.button:nth-child(4):hover .icon{ background: #6e5494;}
 
 .button:nth-child(1) span {color:#4267B2;}
 .button:nth-child(2) span { color: #e1306c;}
 .button:nth-child(3) span { color: #4b7de1;}
-.button:nth-child(4) span { color: rgb(92, 87, 87);}
+.button:nth-child(4) span { color: #6e5494;}
 
 .button  {
     font-size: 20px;
