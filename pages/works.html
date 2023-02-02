@@ -13,29 +13,87 @@
     />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <style>
+      body {
+        font-family: "Epilogue", sans-serif;
+      }
+    </style>
     <title>Works and Projects</title>
   </head>
   <body>
-    <p>Works and Projects</p>
+    <div class="header" id="header">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./works.html">Work</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h2>Works and Projects</h2>
     <div class="container">
-      <div class="project1">
-        <a
-          href="https://fanciful-kulfi-e579f0.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Travel agency webpage</a
-        >
+      <div class="project1 project-container">
+        <div class="image-container">
+          <a
+            href="https://fanciful-kulfi-e579f0.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="../imgs/travel.png "
+              alt="A fictional travel agency called Bhromaon"
+          /></a>
+        </div>
+        <div class="content-text">
+          <p class="title-p">Travel Agency Webpage</p>
+          <p class="description-p">
+            Responsive one page application. The design is given through a figma
+            file and coded using html, css, sass and javascript.
+          </p>
+        </div>
       </div>
-      <div class="project2"></div>
-      <div class="project3">
-        <a
-          href="https://63bfde9603b010118c9526c5--strong-praline-7666c2.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Service Team webpage</a
-        >
+      <div class="project2 project-container">
+        <div class="image-container">
+          <a href="https://storied-dragon-7ca8f2.netlify.app"
+            ><img
+              src="../imgs/Recipe.png "
+              alt="Landing page for a pumpkin soup recipe"
+          /></a>
+        </div>
+        <div class="content-text">
+          <p class="title-p">Recipe Landing Page</p>
+          <p class="description-p">
+            This is a minimalistic recipe landing page. The design is given
+            through a figma file and coded using html, css and sass.
+          </p>
+        </div>
+      </div>
+
+      <div class="project3 project-container">
+        <div class="image-container">
+          <a
+            href="https://capable-puffpuff-112fc3.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="../imgs/Flowerfarm.png " alt="" />
+          </a>
+        </div>
+        <div class="content-text content-text-farm">
+          <p class="title-p">Flower Farm</p>
+          <p class="description-p">
+            A landing page using Javascript for interactivity. When the contact
+            button is clicked, a dialog box will pop up. Name and email are
+            collected and the data is used to change the html element.
+          </p>
+        </div>
       </div>
     </div>
+    <footer>
+      <p class="footer-p">Copyright &copy; All Rights Reserved</p>
+      <p class="footer-p">This site is coded by Christine Paner Schale</p>
+    </footer>
   </body>
 </html>

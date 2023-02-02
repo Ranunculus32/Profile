@@ -1,0 +1,68 @@
+.contact-container {
+  margin: 4% auto 5% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+  padding: 0;
+}
+
+.contact-content {
+  width: 45%;
+  margin-left: 6%;
+  margin-right: 6%;
+  padding: 0;
+}
+
+.contact-p {
+  text-align: start;
+  margin-top: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+.contact-p-bold {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  padding: 0;
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  height: 560px;
+}
+
+input {
+  background-color: #f3f3f3;
+  padding: 15px;
+  width: 80%;
+  margin-top: 5%;
+  border: none;
+  border-radius: 2%;
+}
+
+textarea {
+  background-color: #f3f3f3;
+  margin-top: 5%;
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 2%;
+  font-family: "Epilogue", sans-serif;
+}
+
+.submit-btn {
+  display: block;
+  font-family: 400;
+  font-size: 16px;
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  width: 100px;
+}/*# sourceMappingURL=contact.css.map */
