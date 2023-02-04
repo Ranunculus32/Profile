@@ -39,31 +39,31 @@
           Reach out to discuss about your plans and how can I better help you reach it.
         </p>
         <p>Phone</p>
-        <a href="+46793364128" class="contact-p"> +46793364128</a>
+        <a href="tel: 0793364128" class="contact-p"> 0793364128</a>
         <p>Email</p>
         <a href=mailto:“info@christineschale.se” class="contact-p">info@christineschale.se</a>
 
       </div>
       <div class="contact-form">
-        <form action="/action_page.php">
+        <form id= "fcf-form-id" method="post" action="contact-form-process.php">
           <input
             type="text"
-            id="name"
-            name="name"
+            id="Name"
+            name="Name"
             placeholder="Name"
             required
           />
           <input
             type="text"
-            id="email"
-            name="email"
+            id="Email"
+            name="Email"
             placeholder="Email"
             required
           />
           <textarea
             required
-            id="message"
-            name="message"
+            id="Message"
+            name="Message"
             placeholder="Type your message here"
             style="height: 200px"
           ></textarea>
